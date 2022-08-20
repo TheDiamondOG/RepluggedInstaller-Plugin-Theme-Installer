@@ -77,6 +77,7 @@ pause
 goto exit
 
 :Uninstall
+:uninstall
 
 cd "USER"\replugged
 npm run unplug
@@ -84,6 +85,8 @@ npm run unplug
 echo Thank For Using My Program and Replugged Please Restart discord
 
 pause 
+
+goto exit
 
 :exit
 
